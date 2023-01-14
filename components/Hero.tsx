@@ -18,9 +18,9 @@ function Hero() {
       {/* intro */}
 
       <div className="max-w-xl">
-        Frontend Software Developer , love to working with React and Next js.
-        Have a experience to work with GraphQl and REST Api. also working with
-        CMS (Sanity | Contentfull | Wordpress)
+        Frontend Software Developer loves to work with React and Next js. Have
+        experience working with GraphQl and REST API, also working with Headless
+        CMS such as Sanity, Contentful, and WordPress.
       </div>
 
       {/* tag */}
@@ -34,28 +34,28 @@ function Hero() {
             id: 1,
           },
           {
+            title: "Frontend Developer",
+            icon: <CodeBracketIcon />,
+            color: "text-orange-700",
+            id: 2,
+          },
+          {
             title: "React Developer",
             icon: <CodeBracketIcon />,
             color: "text-rose-600",
-            id: 2,
+            id: 3,
           },
           {
             title: "NextJS Developer",
             icon: <CodeBracketIcon />,
             color: "text-purple-600",
-            id: 2,
+            id: 4,
           },
           {
             title: "JAMStack Developer",
             icon: <CodeBracketIcon />,
             color: "text-teal-700",
-            id: 3,
-          },
-          {
-            title: "Frontend Developer",
-            icon: <CodeBracketIcon />,
-            color: "text-orange-700",
-            id: 3,
+            id: 5,
           },
         ].map((position) => {
           const Icon = position?.icon;

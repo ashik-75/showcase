@@ -22,12 +22,12 @@ function DarkMode() {
   return (
     <div>
       {mode === "dark" ? (
-        <SunIcon
+        <MoonIcon
           onClick={() => setTheme("light")}
           className="icon cursor-pointer"
         />
       ) : (
-        <MoonIcon
+        <SunIcon
           onClick={() => setTheme("dark")}
           className="icon cursor-pointer"
         />
