@@ -11,19 +11,19 @@ export const languages: TechTypes[] = [
     id: 2,
     name: "Typescript",
     image: "ts.png",
-    level: "Intermediate",
+    level: "Mid Level",
   },
   {
     id: 3,
     name: "HTML",
     image: "html.png",
-    level: "expert",
+    level: "Expert",
   },
   {
     id: 4,
     name: "CSS 3",
     image: "css-3.png",
-    level: "Intermediate",
+    level: "Mid Level",
   },
 ];
 
