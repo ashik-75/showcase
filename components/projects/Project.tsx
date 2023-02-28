@@ -16,7 +16,7 @@ function Project({ project }: { project: ProjectType }) {
 
       <div>
         <a target={"_blank"} href={project.link}>
-          <h1 className="hover:underline cursor-pointer text-gray-600 hover:underline-offset-2 font-semibold text-lg">
+          <h1 className="hover:underline cursor-pointer text-gray-600 dark:text-gray-200 hover:underline-offset-2 font-semibold text-lg">
             {project.title}
           </h1>
         </a>
