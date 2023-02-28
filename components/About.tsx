@@ -50,7 +50,7 @@ function About() {
     <div className="space-y-3 scroll-m-20" id="about">
       <h1 className="font-semibold text-xl">About Me</h1>
 
-      <p className="text-[15px] leading-6">
+      <p>
         First and foremost, I love writing code. Ever since writing my first
         program in C and manipulating it to produce the desired output, I have
         been obsessed with the idea of using software to solve practical
@@ -58,21 +58,21 @@ function About() {
         passionately engaged in solving. I believe in the power of programming
         to transform and improve the lives of people around the world.
       </p>
-      <p className="text-[15px] leading-6">
+      <p>
         I am a strong engineering professional with a Bachelor of Science (BS)
         focused on Information Technology from Jahangirnagar University. For my
         first professional contract, I was given the opportunity to be a part of
         a front-end team in a mid-scale company.
       </p>
 
-      <p className="text-[15px] leading-6">
+      <p>
         Skills/Interests: JavaScript, React, NextJs, TypeScript, Redux, Redux
         Thunk, Redux Toolkit, ReactQuery, SWR, TailwindCSS, ChakraUI, Bootstrap,
         PWA applications, StyledComponents, CSS, SCSS, SASS, LESS, Headless CMS,
         REST API, GraphQl, HTML, Git, Github, Linux, Windows, Heroku, Netlify,
         Vercel.
       </p>
-      <p className="text-[15px] leading-6">
+      <p>
         I love to write code, explore documentation and take on new challenges.
       </p>
 

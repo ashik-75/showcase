@@ -13,7 +13,7 @@ export default function RootLayout({
       <head />
       <Providers>
         <body className="dark:bg-slate-900 bg-white">
-          <div className="max-w-4xl mx-auto min-h-screen">
+          <div className="max-w-7xl mx-auto min-h-screen">
             <Header />
             {children}
             <Footer />
