@@ -15,7 +15,11 @@ function Project({ image, title, url }: ProjectType) {
 
       <div className="mt-5">
         <h1 className="font-bold">{title}</h1>
-        <a className="underline underline-offset-2" href={url}>
+        <a
+          className="underline underline-offset-2"
+          target={"_blank"}
+          href={url}
+        >
           visit here
         </a>
       </div>
