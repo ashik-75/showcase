@@ -47,7 +47,7 @@ function Social(props: { media: SocialType }) {
 
 function About() {
   return (
-    <div className="space-y-3 scroll-m-20" id="about">
+    <div className="space-y-3 scroll-m-20 max-w-4xl" id="about">
       <h1 className="font-semibold text-xl">About Me</h1>
 
       <p>
