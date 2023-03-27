@@ -3,9 +3,9 @@ import { ProjectType } from "@/client/project.types";
 const projects: ProjectType[] = [
   {
     id: 1,
-    image: "/projects/medium.png",
-    title: "Medium UI Clone",
-    url: "https://next-medium-tail.vercel.app/",
+    image: "/projects/yt-1.png",
+    title: "Build Youtube with Rapid Api",
+    url: "https://react-yt-amber.vercel.app/",
   },
   {
     id: 2,
