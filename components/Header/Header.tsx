@@ -9,7 +9,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <div className="p-5 flex justify-between backdrop-blur-lg sticky top-0 left-0 w-full dark:bg-slate-900/70 bg-white/50 z-[99]">
+    <div className="p-5 flex justify-between backdrop-blur-lg sticky top-0 left-0 w-full bg-slate-900/70 border-b border-slate-800  z-[99]">
       <div className="flex gap-3 items-center">
         <Bars3Icon
           onClick={() => setIsOpen(true)}

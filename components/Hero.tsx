@@ -2,7 +2,7 @@ import { CodeBracketIcon, MapPinIcon } from "@heroicons/react/24/solid";
 
 function Hero() {
   return (
-    <div className="space-y-5 scroll-mt-32" id="intro">
+    <div className="space-y-5 scroll-mt-32 text-gray-100" id="intro">
       <div>
         <h1 className="text-2xl font-semibold">Ashik Rana</h1>
         <div className="flex gap-2 items-center">
@@ -62,7 +62,7 @@ function Hero() {
           const color = position.color;
           return (
             <div
-              className="px-3 py-1 text-sm rounded-full dark:bg-slate-800 bg-slate-200 flex gap-2 whitespace-nowrap"
+              className="px-3 py-1 text-sm rounded-full bg-slate-800 flex gap-2 whitespace-nowrap"
               key={position.id}
             >
               <CodeBracketIcon className={`icon ${color}`} />

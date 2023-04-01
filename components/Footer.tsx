@@ -15,7 +15,7 @@ function Footer() {
         <>
           <div
             onClick={scrollToTop}
-            className="p-2 rounded dark:bg-slate-700 bg-slate-300 cursor-pointer hover:scale-110 transition"
+            className="p-2 rounded bg-slate-700 cursor-pointer hover:scale-110 transition"
           >
             <ChevronUpIcon className="h-5 w-5" />
           </div>

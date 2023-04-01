@@ -21,7 +21,7 @@ function MobileMenu(props: MenuOpenProps) {
     <div
       className={`w-full z-[9999] h-screen absolute top-0 ${
         props.isOpen ? "left-0" : "-left-[100vw]"
-      } dark:bg-slate-900 bg-slate-100 transition-all duration-200 p-10 space-y-5`}
+      } bg-slate-900 transition-all duration-200 p-10 space-y-5`}
     >
       <button onClick={handleCloseMenu}>
         <XMarkIcon className="h-7 w-7 text-zinc-500" />
