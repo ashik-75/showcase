@@ -1,11 +1,13 @@
 import { ProjectType } from "@/client/project.types";
+import Image from "next/image";
 
 function Project({ image, title, url }: ProjectType) {
   return (
     <div>
       <a href={url} target="_blank">
-        <div className=" h-72 rounded-lg overflow-hidden">
-          <img
+        <div className="relative h-72 rounded-lg overflow-hidden">
+          <Image
+            fill
             src={image}
             className="h-full w-full object-cover object-center hover:scale-110 transition-all"
             alt=""
