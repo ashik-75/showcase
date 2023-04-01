@@ -12,7 +12,7 @@ export default function RootLayout({
     <html className="scroll-smooth">
       <head />
       <Providers>
-        <body className="dark:bg-slate-900 bg-white">
+        <body className="bg-slate-900">
           <div className="max-w-7xl mx-auto min-h-screen">
             <Header />
             {children}

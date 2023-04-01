@@ -3,14 +3,13 @@
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import { useState } from "react";
-import DarkMode from "./DarkMode";
 import MobileMenu from "./MobileMenu";
 
 function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <div className="p-5 flex justify-between backdrop-blur-lg sticky top-0 left-0 w-full dark:bg-slate-900/70 bg-white/50 ">
+    <div className="p-5 flex justify-between backdrop-blur-lg sticky top-0 left-0 w-full dark:bg-slate-900/70 bg-white/50 z-[99]">
       <div className="flex gap-3 items-center">
         <Bars3Icon
           onClick={() => setIsOpen(true)}
@@ -37,8 +36,6 @@ function Header() {
             <li>Projects</li>
           </a>
         </ul>
-
-        <DarkMode />
       </div>
 
       <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
