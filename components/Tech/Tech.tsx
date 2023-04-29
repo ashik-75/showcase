@@ -7,7 +7,7 @@ function Tech({ info }: { info: TechTypes }) {
         <img src={`/${info.image}`} className="h-5 w-5 rounded" alt="" />
       </div>
       <div className="text-sm">{info.name}</div>
-      <p className="text-xs">{info.level}</p>
+      {/* <p className="text-xs">{info.level}</p> */}
     </div>
   );
 }

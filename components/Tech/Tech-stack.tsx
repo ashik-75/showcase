@@ -1,11 +1,11 @@
 import Stack from "./Stack";
 import {
   frameWorks,
-  frontendFrameworks,
   languages,
+  library,
   StateManagement,
   tools,
-  ui,
+  uiLibrary,
   versionControl,
   webBrowser,
 } from "./techData";
@@ -17,13 +17,13 @@ function TechStack() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <Stack title="Languages" data={languages} />
-        <Stack title="Javascript UI" data={ui} />
         <Stack title="State Management" data={StateManagement} />
-        <Stack title="Frameworks (Full Stack)" data={frameWorks} />
-        <Stack title="Frontend Frameworks" data={frontendFrameworks} />
+        <Stack title="UI Library" data={uiLibrary} />
+        <Stack title="Frontend Framework" data={frameWorks} />
+        <Stack title="Frontend Library" data={library} />
         <Stack title="Web Browser" data={webBrowser} />
-        <Stack title="Version Control" data={versionControl} />
-        <Stack title="Tools" data={tools} />
+        <Stack title="Code Editor" data={tools} />
+        <Stack title="Version Control & Deployment" data={versionControl} />
       </div>
     </div>
   );

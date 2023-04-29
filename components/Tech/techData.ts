@@ -27,20 +27,44 @@ export const languages: TechTypes[] = [
   },
 ];
 
-export const ui: TechTypes[] = [
+export const library: TechTypes[] = [
   {
     id: 1,
     name: "React",
     level: "Expert",
     image: "react.png",
   },
+  {
+    id: 2,
+    name: "Framer Motion",
+    level: "Expert",
+    image: "framer.png",
+  },
+  {
+    id: 3,
+    name: "React Hook Form",
+    level: "Expert",
+    image: "hk.png",
+  },
 ];
 
-export const frontendFrameworks: TechTypes[] = [
+export const uiLibrary: TechTypes[] = [
   {
     id: 1,
     name: "Tailwind CSS",
     image: "tailwind.png",
+    level: "Expert",
+  },
+  {
+    id: 2,
+    name: "Chakra UI",
+    image: "ck.jpg",
+    level: "Expert",
+  },
+  {
+    id: 3,
+    name: "Material UI",
+    image: "mu.png",
     level: "Expert",
   },
 ];
@@ -59,6 +83,18 @@ export const versionControl: TechTypes[] = [
     id: 1,
     name: "Git",
     image: "git.png",
+    level: "Expert",
+  },
+  {
+    id: 2,
+    name: "Github",
+    image: "github.png",
+    level: "Expert",
+  },
+  {
+    id: 3,
+    name: "Vercel",
+    image: "vc.png",
     level: "Expert",
   },
 ];
