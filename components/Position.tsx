@@ -2,7 +2,7 @@ const schools = [
   {
     id: 1,
     title: "Frontend Software Developer (React | NextJS) at DevsNext LLC",
-    subtitle: "July , 2021 - current",
+    subtitle: "1 April , 2022 - 1 April, 2023",
     imgUrl: "devsnest.jpeg",
   },
 ];
