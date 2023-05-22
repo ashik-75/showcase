@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="space-y-5 scroll-mt-32 text-gray-100" id="intro">
       <div>
-        <h1 className="text-2xl font-semibold">Sweet Rana</h1>
+        <h1 className="text-2xl font-semibold">Ashik Rana</h1>
         <div className="flex gap-2 items-center">
           <div className="text-sm ">ashikex49@gmail.com</div>
           <p className="">.</p>
