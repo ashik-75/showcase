@@ -17,7 +17,7 @@ function Header() {
         />
 
         <Link href={"/"}>
-          <div className="font-semibold text-xl">Ashik Rana</div>
+          <div className="font-semibold text-xl">Sweet Rana</div>
         </Link>
       </div>
 
