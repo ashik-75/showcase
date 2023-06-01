@@ -76,11 +76,11 @@ function About() {
         I love to write code, explore documentation and take on new challenges.
       </p>
 
-      <div className="flex gap-3 flex-wrap">
+      {/* <div className="flex gap-3 flex-wrap">
         {socialMedia.map((media) => (
           <Social media={media} key={media.id} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
