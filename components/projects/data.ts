@@ -55,6 +55,12 @@ const projects: ProjectType[] = [
     title: "Next.js Template for Startup & SaaS",
     url: "https://next-sass-temp.vercel.app/",
   },
+  {
+    id: 10,
+    image: "/projects/clay.png",
+    title: "Modern Website Build with NextJs 13 and Tawilwind CSS",
+    url: "https://clay-react.vercel.app/",
+  },
 ];
 
 export default projects;
