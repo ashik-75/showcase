@@ -1,30 +1,30 @@
 import Link from "next/link";
 
 const socialMedia = [
-  {
-    id: 1,
-    title: "facebook",
-    url: "https://www.facebook.com/ashikranasweet",
-    icon: "facebook.png",
-  },
+  // {
+  //   id: 1,
+  //   title: "facebook",
+  //   url: "https://www.facebook.com/ashikranasweet",
+  //   icon: "facebook.png",
+  // },
   {
     id: 2,
     title: "github",
     url: "https://github.com/ashik-75",
     icon: "github.png",
   },
-  {
-    id: 3,
-    title: "linkedin",
-    url: "https://www.linkedin.com/in/ashik-rana-93285b223/",
-    icon: "linkedin.png",
-  },
-  {
-    id: 4,
-    title: "twitter",
-    url: "https://twitter.com/AshikRa49018627",
-    icon: "twitter.png",
-  },
+  // {
+  //   id: 3,
+  //   title: "linkedin",
+  //   url: "https://www.linkedin.com/in/ashik-rana-93285b223/",
+  //   icon: "linkedin.png",
+  // },
+  // {
+  //   id: 4,
+  //   title: "twitter",
+  //   url: "https://twitter.com/AshikRa49018627",
+  //   icon: "twitter.png",
+  // },
 ];
 
 type SocialType = {
@@ -76,11 +76,11 @@ function About() {
         I love to write code, explore documentation and take on new challenges.
       </p>
 
-      {/* <div className="flex gap-3 flex-wrap">
+      <div className="flex gap-3 flex-wrap">
         {socialMedia.map((media) => (
           <Social media={media} key={media.id} />
         ))}
-      </div> */}
+      </div>
     </div>
   );
 }
