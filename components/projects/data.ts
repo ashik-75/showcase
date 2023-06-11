@@ -4,7 +4,7 @@ const projects: ProjectType[] = [
   {
     id: 1,
     image: "/projects/notes.png",
-    title: "Note Taking web Apps",
+    title: "Note Taking  App",
     url: "https://notes-q1ap.vercel.app/",
   },
   {
