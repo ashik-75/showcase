@@ -10,7 +10,7 @@ function Footer() {
   };
   return (
     <div className="py-10 px-5 md:px-0 flex justify-between items-center">
-      <p className="">Copyright © 2023 Ashik Rana</p>
+      <p className="">Copyright © 2023 Sweet Rana</p>
       <div>
         <>
           <div
