@@ -9,7 +9,7 @@ function Project({ image, title, url }: ProjectType) {
           <Image
             fill
             src={image}
-            className="h-full w-full object-cover object-center hover:scale-110 transition-all"
+            className="h-full w-full object-cover object-center hover:scale-110 duration-700 ease-in-out"
             alt=""
           />
         </div>
