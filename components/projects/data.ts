@@ -3,9 +3,9 @@ import { ProjectType } from "@/client/project.types";
 const projects: ProjectType[] = [
   {
     id: 1,
-    image: "/projects/notes.png",
-    title: "Note Taking  App",
-    url: "https://notes-q1ap.vercel.app/",
+    image: "/projects/admin.png",
+    title: "React Admin Dashboard",
+    url: "https://react-admin-five-sigma.vercel.app/",
   },
   {
     id: 2,
@@ -21,9 +21,9 @@ const projects: ProjectType[] = [
   },
   {
     id: 4,
-    image: "/projects/pocket.png",
-    title: "Pocket",
-    url: "https://next-pocket.vercel.app/",
+    image: "/projects/notes.png",
+    title: "Note Taking  App",
+    url: "https://notes-q1ap.vercel.app/",
   },
   {
     id: 5,
